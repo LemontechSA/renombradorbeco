@@ -19,4 +19,10 @@
     </COMReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="app\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+  </ItemGroup>
 </Project>
